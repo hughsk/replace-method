@@ -5,10 +5,11 @@
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
-    "recast": "~0.5.7"
+    "recast": "~0.8.0"
   },
   "devDependencies": {
-    "faucet": "0.0.0"
+    "faucet": "0.0.0",
+    "tape": "^4.0.0"
   },
   "scripts": {
     "test": "faucet test.js"
